@@ -17,7 +17,7 @@
     "eslint-config-egg": "^8.0.0"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "link": "yarn link && cd example && yarn link egg-framework-extend",
