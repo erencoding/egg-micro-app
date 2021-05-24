@@ -1,6 +1,6 @@
 {
   "name": "egg-framework-extend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg目录的扩展",
   "dependencies": {
     "chalk": "^4.1.1",
