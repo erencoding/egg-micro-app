@@ -44,7 +44,7 @@ export default {
 ## Usage
 配置
 在framework.config.js导出对象，对象包含下列属性
-| 属性 | 类型 | 属性值 |  
+| 属性 | 类型 | 说明 |  
 | ------ | ------ | ------ |  
 | router | string[] | router文件的绝对路径 |  
 | controller | string[] | controller目录的绝对路径 |  
