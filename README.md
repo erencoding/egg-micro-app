@@ -29,7 +29,7 @@ npm i @seewoedu/egg-framework-extend --registry=https://artifactory.gz.cvte.cn/a
   },
 }
 ```
-2. 在egg目录下的config配置文件夹中，新建文件framework.config.js(若使用typescript则后缀为.ts)
+2. 在egg目录下的config配置文件夹中，新建文件framework.config.js(若使用typescript则后缀为.ts)
 ```
 // framework.config.js
 import path = require('path');
