@@ -1,4 +1,4 @@
-# egg-framework-extend
+# egg-micro-app
 通过拓展egg项目目录，实现egg微应用
 <img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />  
 

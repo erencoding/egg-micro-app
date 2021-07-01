@@ -1,4 +1,4 @@
-# egg-framework-extend
+# egg-micro-app
 By expanding the Egg project directory, the Egg micro application is realized
 <img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />  
 
