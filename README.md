@@ -65,7 +65,7 @@ module.exports = {
 ```
 
 ## Usage
-Configuration config description
+Configuration config description.
 | property | type | description |  
 | ------ | ------ | ------ |  
 | app | string[] | Defines the absolute path of the micro application |  
