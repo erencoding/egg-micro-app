@@ -1,5 +1,5 @@
 {
-  "name": "@seewoedu/egg-framework-extend",
+  "name": "egg-framework-extend",
   "version": "1.0.2",
   "description": "egg目录的扩展",
   "dependencies": {

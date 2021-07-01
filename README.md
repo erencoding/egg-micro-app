@@ -1,68 +1,77 @@
-# @seewoedu/egg-framework-extend
-## Introduction
-实现了egg目录的扩展。
+# egg-framework-extend
+By expanding the Egg project directory, the Egg micro application is realized
+<img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />
+English | [简体中文](./README-zh_CN.md)
 ## Install
 ```
-npm i @seewoedu/egg-framework-extend --registry=https://artifactory.gz.cvte.cn/artifactory/api/npm/cvte-npm-registry
+npm i egg-framework-extend --save
 ```
 ## Example
-例如，在egg默认目录结果下，为模块home定制专属目录
+#### Micro Application
+According to different business modules, split the original App into several MicroApp in egg.
 ```
 - app
-  - controller
-  - service
-  - extend
-  - router.js
-- home
-  - controller
-  - service
-  - extend
-  - router.js
+  - microApp1
+  - microApp2
+  - microApp3
+    - controller
+    - service
+    - router.js
 ```
-1. 在package.json中接入npm包
+Access the NPM package in package.json
 ```
 {
   "name": "your-project",
-  "version": "1.0.0",
+  ...
   "egg": {
-    "framework": "@seewoedu/egg-framework-extend"
+    "framework": "egg-framework-extend"
   },
+  ...
 }
 ```
-2. 在egg目录下的config配置文件夹中，新建文件framework.config.js(若使用typescript则后缀为.ts)
+In the config folder in the egg directory, create a new file framework.config.js(framework.config.ts if you use TypeScript).
 ```
 // framework.config.js
-import path = require('path');
+const path = require('path');
 
-export default {
-  router: [path.join(process.cwd(), 'home/router.js')],
-  controller: [path.join(process.cwd(), 'home/controller')],
-  service: [path.join(process.cwd(), 'home/service')],
-  extend: [path.join(process.cwd(), 'home/extend')],
+module.exports = {
+  app: [
+    path.join(process.cwd(), 'app/microApp1'),
+    path.join(process.cwd(), 'app/microApp2'),
+    path.join(process.cwd(), 'app/microApp3'),
+  ],
 };
 ```
+#### Micro application nesting
+If the module becomes more and more bloated, you can split it up.
+```
+- app
+  - microApp
+    - subMicroApp1
+    - subMicroApp2
+```
+```
+// framework.config.js
+const path = require('path');
+
+module.exports = {
+  app: [
+    path.join(process.cwd(), 'app/microApp/subMicroApp1'),
+    path.join(process.cwd(), 'app/microApp/subMicroApp2'),
+  ],
+};
+```
+
 ## Usage
-配置
-在framework.config.js导出对象，对象包含下列属性
-| 属性 | 类型 | 说明 |  
+Configuration config description
+| property | type | description |  
 | ------ | ------ | ------ |  
-| router | string[] | router文件的绝对路径 |  
-| controller | string[] | controller目录的绝对路径 |  
-| service | string[] | service目录的绝对路径 |  
-| extend | string[] | extend目录的绝对路径 |  
-| constant | string[] | constant目录的绝对路径，即常量的目录 |  
+| app | string[] | Defines the absolute path of the micro application |  
+| router | string[] | Customize the absolute path to the Router file |  
+| controller | string[] | Customize the absolute path to the Controller file |  
+| service | string[] | Customize the absolute path to the Service file |
+| extend | string[] | Customize the absolute path to the extend file |
+| constant | string[] | Customize the absolute path to the constant file |  
 
-## Test
-```
-// 待开发
-```
- 
-
- 
-
- 
-
- 
-
- 
-
+## License
+[MIT](./LICENSE)
