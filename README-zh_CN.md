@@ -6,7 +6,7 @@
 [English](./README.md) | 简体中文
 ## 安装
 ```
-npm i egg-framework-extend --save
+npm i egg-micro-app --save
 ```
 ## 举例
 ### 微应用
@@ -26,7 +26,7 @@ npm i egg-framework-extend --save
   "name": "your-project",
   ...
   "egg": {
-    "framework": "egg-framework-extend"
+    "framework": "egg-micro-app"
   },
   ...
 }

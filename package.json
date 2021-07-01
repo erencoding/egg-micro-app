@@ -20,7 +20,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "link": "yarn link && cd example && yarn link egg-framework-extend",
+    "link": "yarn link && cd example && yarn link egg-micro-app",
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",

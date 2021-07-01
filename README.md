@@ -6,7 +6,7 @@ By expanding the Egg project directory, the Egg micro application is realized
 English | [简体中文](./README-zh_CN.md)
 ## Install
 ```
-npm i egg-framework-extend --save
+npm i egg-micro-app --save
 ```
 ## Example
 #### Micro application
@@ -26,7 +26,7 @@ Access the NPM package in package.json
   "name": "your-project",
   ...
   "egg": {
-    "framework": "egg-framework-extend"
+    "framework": "egg-micro-app"
   },
   ...
 }
