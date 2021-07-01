@@ -1,6 +1,6 @@
 # egg-framework-extend
 By expanding the Egg project directory, the Egg micro application is realized
-<img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />
+<img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />  
 English | [简体中文](./README-zh_CN.md)
 ## Install
 ```
