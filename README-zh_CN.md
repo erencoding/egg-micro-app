@@ -8,7 +8,7 @@ npm i egg-framework-extend --save
 ```
 ## 举例
 ### 微应用
-根据业务中不同模块，将egg中原有的app（应用）拆分为多个microApp（微应用）
+根据业务中不同模块，将egg中原有的`app`应用拆分为多个`microApp`微应用
 ```
 - app
   - microApp1

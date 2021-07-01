@@ -7,8 +7,8 @@ English | [简体中文](./README-zh_CN.md)
 npm i egg-framework-extend --save
 ```
 ## Example
-#### Micro Application
-According to different business modules, split the original App into several MicroApp in egg.
+#### Micro application
+According to different business modules, split the original `app` into several `microApp` in egg.
 ```
 - app
   - microApp1

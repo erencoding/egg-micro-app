@@ -1,7 +1,7 @@
 {
-  "name": "egg-framework-extend",
-  "version": "1.0.2",
-  "description": "egg目录的扩展",
+  "name": "egg-micro-app",
+  "version": "0.0.1",
+  "description": "By expanding the Egg project directory, the Egg micro application is realized",
   "dependencies": {
     "chalk": "^4.1.1",
     "webpack-merge": "^5.7.3"
@@ -17,7 +17,7 @@
     "eslint-config-egg": "^8.0.0"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "link": "yarn link && cd example && yarn link egg-framework-extend",
@@ -39,7 +39,11 @@
   },
   "keywords": [
     "egg",
-    "egg-framework"
+    "framework",
+    "node",
+    "catalogue",
+    "micro",
+    "micro app"
   ],
   "author": "caojun",
   "files": [
