@@ -70,10 +70,10 @@ Configuration config description.
 | ------ | ------ | ------ |  
 | app | string[] | Defines the absolute path of the micro application |  
 | router | string[] | Customize the absolute path to the Router file |  
-| controller | string[] | Customize the absolute path to the Controller file |  
-| service | string[] | Customize the absolute path to the Service file |
-| extend | string[] | Customize the absolute path to the extend file |
-| constant | string[] | Customize the absolute path to the constant file |  
+| controller | string[] | Customize the absolute path to the directory of Controller file |  
+| service | string[] | Customize the absolute path to the directory of Service file |
+| extend | string[] | Customize the absolute path to the directory of the Extend file |
+| constant | string[] | Customize the absolute path to the directory of the constant file |  
 
 ## License
 [MIT](./LICENSE)
