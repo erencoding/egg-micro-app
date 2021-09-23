@@ -1,6 +1,6 @@
 {
   "name": "egg-micro-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "By expanding the Egg project directory, the Egg micro application is realized",
   "dependencies": {
     "chalk": "^4.1.1",
