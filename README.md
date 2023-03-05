@@ -1,5 +1,6 @@
 # egg-micro-app
-通过拓展egg项目目录，实现egg微应用  
+通过拓展egg项目目录，拆分egg巨型应用，实现服务模块化。
+因为egg的目录约束特性，默认只有一个app，app会随着软件迭代愈发庞大。这个工具可以通过配置扩展更多的app，让开发者把巨石应用拆分成多个微应用。
 <img src="https://store-g1.seewo.com/seewoedu_pub_6334eb4993f4474ba5845c2b3c855119" width="700"  align="bottom" />    
 
 
