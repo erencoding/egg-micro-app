@@ -4,7 +4,7 @@
   "description": "By expanding the Egg project directory, the Egg micro application is realized",
   "dependencies": {
     "chalk": "^4.1.1",
-    "webpack-merge": "^5.7.3"
+    "webpack-merge": "^5.9.0"
   },
   "devDependencies": {
     "autod": "^3",
